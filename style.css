@@ -1,8 +1,13 @@
+body{
+	width:1920px;
+	height:1080px;
+	
+}
 #name{
 	font-size: 19pt;
 	color: red;
 	display: inline-block;
-  margin-left: auto;	
-  margin-right: auto;
-  position: relative;
+	margin-left: 50%;	
+	margin-right: 50%;
+	width:100%;
 }
