@@ -1,13 +1,14 @@
 
 #name{
-width:350px;
-height: 262px;
-margin-left: auto;
-margin-right: auto;
-position: relative;
-color: red;
+	width:400px;
+	height: 262px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	color: red;
 	font-family: helvetica;
 	font-style: italic;
+	font-size: 30pt;
 }
 
 body{
