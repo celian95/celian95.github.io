@@ -15,3 +15,14 @@ body{
 	margin: 0px;
 	padding: 0px;
 }
+
+#about
+{
+	width:500px;
+	height: 262px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	font-family: helvetica;
+
+}
