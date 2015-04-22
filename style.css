@@ -35,7 +35,7 @@ body{
 }
 
 #img{
-	background-img: url("http://static.pexels.com/wp-content/uploads/2015/03/apple-black-and-white-camera-5168.jpg")
+	background-image: url("http://static.pexels.com/wp-content/uploads/2015/03/apple-black-and-white-camera-5168.jpg")
 	width:auto;
 	height:200px;
 	
