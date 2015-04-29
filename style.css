@@ -23,26 +23,7 @@ body{
     padding: 0px;
      background-image: url("http://s22.postimg.org/jwuqk20xd/fresh_snow.png");
 }
-@font-face {
-    font-family: "Champagne & Limousines";
-    src: url('fonts/Champagne & Limousines.ttf');
-}
-@font-face {
-    font-family: "Champagne & Limousines Italic";
-    font-style: italic;
-    src: url('fonts/Champagne & Limousines Italic.otf');
-}
-@font-face {
-    font-family: "Champagne & Limousines Bold";
-    font-weight: bold;
-    src: url('fonts/Champagne & Limousines Bold.ttf');
-}
-@font-face {
-    font-family: "Champagne & Limousines Bold Italic";
-    font-weight: bold;
-    font-style: italic;
-    src: url('fonts/Champagne & Limousines Bold Italic.ttf');
-}
+
 
 #about
 {
@@ -51,7 +32,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    font-family: helvetica;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #img{
@@ -67,7 +48,7 @@ body{
     margin-right: auto;
     position: relative;
     color:#DC143C;
-    font-family: helvetica;
+    font-family: 'Slabo 27px', serif;
     font-style: italic;
     font-size: 14pt;
 }
@@ -78,7 +59,7 @@ body{
     margin-right: auto;
     position: relative;
     color:#DC143C;
-    font-family: helvetica;
+    font-family: 'Slabo 27px', serif;
     font-style: italic;
     font-size: 25pt;
 }
