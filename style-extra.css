@@ -1,0 +1,86 @@
+	body{
+		background-image: url("http://s7.postimg.org/vqp61dvij/149_H.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+.btn {
+  background: #3caefa;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+.myButton {
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background-color:#2dabf9;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	padding:9px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+h1{
+
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	font-family: arial;
+	font-weight: lighter;
+	margin-top: 190px;
+	margin-left: -150px;
+	margin-right: -150px;
+	padding-top: 30px;
+  	padding-right: 150px;
+  	padding-bottom: 150px;
+  	padding-left: 150px;
+	vertical-align:  text-top;
+}
+p{
+	font-size: 20px;
+
+	margin: 0px;
+}
+
+#text{
+		font-size: 15px;
+		margin-top: 20px;
+}
+
+#text2{
+		font-size: 13px;
+		margin-top: 10px;
+		color:#2dabf9;
+}
+
+
