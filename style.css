@@ -19,9 +19,14 @@ h1 {
     color: #9a0817;
 }
 body{
-    margin: 0px;
-    padding: 0px;
-     background-image: url("http://s22.postimg.org/jwuqk20xd/fresh_snow.png");
+		background-image: url("http://s7.postimg.org/vqp61dvij/149_H.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 }
 
 
