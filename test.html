@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 
 <body>
-<header>
-<nav>
-<a href="index.html">Home</a>
-<a href="about-us.html">About Us</a>
-</nav>
-</header>
-<section>
-<h1> About Us </h1>
-We are the Basic Web class.
-We're learning all about <a href="http://www.w3.org/TR/html51/">HTML5</a>.
-<p>In the process, we're picking up some CSS3, too.</p>
-</section>
+<div class="pin">
+  <div class="pin-holder">
+    <nav class="actions">
+      <a href="#repin">Repin</a>
+      <a href="#like">Like</a>
+      <a href="#comment">Comment</a>
+    </nav>
+   <a href="me/cat/">
+      <img src="cat.jpg" alt="My awesome cat">
+    </a>
+  </div>
+  <article>Awesome cat description.</article>
+  <details class="stats">
+    <span>25 likes</span>
+    <span>2 comments</span>
+    <span>100 repins</span>
+  </details>
+  <footer class="convo">
+    <a href="/me/">
+      <img src="me.jpg" alt="Profile picture of me">
+    </a>
+    <p><a href="/me/">Me</a> onto <a href="/here/">here</a></p>
+  </footer>
+</div>
+
 </body>
