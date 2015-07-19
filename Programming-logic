@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>programmmig logic</title>
+
+
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style-extra.css">
+	 <link href="style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body >
+<header> <div id="logo">
+		<img src="http://i.imgur.com/Wp1vOdD.png" alt="logo" title="my logo">
+	</div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=532962070122348";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>	
+	
+    <div id="menu">
+			<div class="menu">
+			<a href="index.html" class="menu0">HOME</a>
+		</div>
+		<div class="menu">
+			<a href="portfolio.html" class="menu0">PORTFOLIO</a>
+		</div>
+		
+		<div class="menu">
+			<a href="about.html" class="menu1">ABOUT</a>
+		</div>
+		
+		<div class="menu">
+			<a href="contact.html" class="menu1">CONTACT</a>
+		</div>
+			<div class="menu">
+			<a href="resume.html" class="menu0">RESUME</a>
+		</div>
+</div>
+</header>
+
+<a href="https://www.facebook.com/celian.guillamet"><i class="fa fa-facebook-square fa-3x" width="100"></i></a>
+<a href="https://www.linkedin.com/pub/celian-guillamet/79/372/b41"><i class="fa fa-linkedin-square fa-3x"></i></a>
+
+<h1 style="margin-top:0;" >Celian Guillamet <br> <p style="margin-top: 20px;">celian.guillamet@gmail.com</p> <br>  <br>
+ <div id="text"> tel: <span style="color:#2dabf9;">(305) 793 6866</span> <br> work done in the past : Idea fizz / La Gazette de Marcel Rose / The traveling Persuaders / Web site for my past Graphic Design school <br> Experience in HTML and CSS </div> </h1>
+		
+
+</body>
+</html>
