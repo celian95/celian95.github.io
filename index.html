@@ -1,87 +1,93 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Celian Guillamet </title>
-
-	<!--iOS -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="normalize.css">
-	<link rel="stylesheet" href="style.css">
-	<link rel="icon" href="favicon.ico" type="image/x-icon" />
-	<script src="modernizr-2.6.2.min.js"></script>
+	<title>home</title>
 	<style type="text/css">
-	.back-link a {
-		color: #4ca340;
-		text-decoration: none; 
-		border-bottom: 1px #4ca340 solid;
-	}
-	.back-link a:hover,
-	.back-link a:focus {
-		color: #408536; 
-		text-decoration: none;
-		border-bottom: 1px #408536 solid;
-	}
-	h1 {
-		height: 100%;
-		margin: 0;
-		font-size: 14px;
-		font-family: 'Open Sans', sans-serif;
-		font-size: 32px;
-		margin-bottom: 3px;
-	}
+		body {
+  margin: 0;
+  height: 100vh;
+}
+
+.svg {
+  margin: auto;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 400px;
+  height: 400px;
+  animation: mainRotate 9s infinite ease-out;
+}
+
+@keyframes mainRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.squares { 
+  fill: red;
+  opacity: .75;
+  animation: squares 3s infinite linear alternate;
+  transform-origin: 50% 50%;
+}
+
+@keyframes squares {
+  100% {
+    fill: darkred;
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+  fill: darkred;
+  animation: centerSquare 3s infinite linear alternate;
+  transform-origin: 50% 50%;
+}
+
+@keyframes centerSquare {
+  100% {
+    fill: red;
+    transform: rotate(360deg);
+  }
+}
 
 	</style>
 </head>
-<body >
-
-
-
-		
-
-<header>
-<div id="logo">
-	<img src="http://i.imgur.com/Wp1vOdD.png" alt="logo" title="my logo">
-	</div>
-	
-	
-    <div id="menu">
-			<div class="menu">
-			<a href="index.html" class="menu0">HOME</a>
-		</div>
-		<div class="menu">
-			<a href="portfolio.html" class="menu0">PORTFOLIO</a>
-		</div>
-		
-		<div class="menu">
-			<a href="about.html" class="menu1">ABOUT</a>
-		</div>
-		
-		<div class="menu">
-			<a href="contact.html" class="menu1">CONTACT</a>
-		</div>
-			<div class="menu">
-			<a href="resume.html" class="menu0">RESUME</a>
-		</div>
+<body>
+<a href="home.html">
+<div class="svg">
+  <svg viewbox="0 0 100 100">
+    <rect class="center" x="33.33" y="33.33" width="33.33" height="33.33" />
+    
+    <rect class="squares" x="0" y="33.33" width="33.33" height="33.33">
+      <animate
+                 attributeName="x"
+                 from="66.67" to="0"
+                 dur="3s"
+                 repeatCount="indefinite"/>
+    </rect>
+    <rect class="squares" x="33.33" y="33.33" width="33.33" height="33.33">
+        <animate
+                 attributeName="x"
+                 from="0" to="66.67"
+                 dur="3s"
+                 repeatCount="indefinite"/>
+    </rect>
+    <rect class="squares" x="33.33" y="0" width="33.33" height="33.33">
+        <animate
+                 attributeName="y"
+                 from="66.67" to="0"
+                 dur="3s"
+                 repeatCount="indefinite"/>
+    </rect>
+    <rect class="squares" x="33.33" y="33.33" width="33.33" height="33.33">
+        <animate
+                 attributeName="y"
+                 from="0" to="66.67"
+                 dur="3s"
+                 repeatCount="indefinite"/>
+    </rect>
+  </svg>
 </div>
-</header>
-<section>
-	<p >Home Page Celian Guillamet</p>
-<iframe  width="560" height="315" src="https://www.youtube.com/embed/wcAMBkMhJaM"  allowfullscreen></iframe>
-</section>
-<br>
-<br>
-<footer>
-
-</footer>
+</a>
 </body>
 </html>
